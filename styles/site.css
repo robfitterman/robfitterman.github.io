@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	padding-top:0px;
+	margin-top:0px;
+	
+	scrollbar-face-color:black;
+	scrollbar-highlight-color:white;
+	scrollbar-3dlight-color:white;
+	scrollbar-darkshadow-color:white;
+	scrollbar-shadow-color:white;
+	scrollbar-arrow-color:white;
+	scrollbar-track-color:white;
+}
+ul
+{
+	margin-top:0px;
+	padding-top:0px;
+}
+li
+{
+	margin-top:3px;
+	margin-bottom:3px;
+}
+.main-content
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	width:972px;
+	height:517px;
+}
+.menu
+{
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	color:black;
+	font-size:1em;
+	top: 150px;
+	left: 45px;
+	width: 325px;
+	height: 350px;
+}
+.ui-state-active, .ui-state-default
+{
+	background:none;
+	border:none;
+}
+.ui-state-active a:link
+{
+	color:black;
+}
+.ui-widget-content
+{
+	color:black;
+	font-size:0.8em;
+	border:none;
+	background:none;
+}
+.ui-widget-content a
+{
+	color:black;
+	font-size:1em;
+	text-decoration:none;
+}
+.ui-accordion .ui-accordion-content
+{
+	padding-top:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	padding-left:18px;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- WEB SITE DESIGN BY STEVE GIASSON AND LOUIS-PHILIPPE ALAIN - HENSA_25@HOTMAIL.COM - 2010 -->
+<head>
+    <title>Rob Fitterman</title>
+    <link rel="stylesheet" type="text/css" href="styles/ui-lightness/jquery-ui-1.8.4.custom.css" />
+    <link rel="stylesheet" type="text/css" href="styles/site.css" />
+    <script language="javascript" src="scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script language="javascript" src="scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script language="javascript" src="scripts/jquery-ui-1.8.4.custom.min.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+
+        $(document).ready(function () 
+		{
+            $("#accordion").accordion({ autoHeight: false, collapsible: true, active:false });
+			
+			var randomnumber  = Math.floor(Math.random() * 5);
+			
+			switch(randomnumber)
+			{
+				case 0:
+		 			ShowBackgroud_1();
+					break;
+				case 1:
+		 			ShowBackgroud_2();
+					break;
+				case 2:
+		 			ShowBackgroud_3();
+					break;
+				case 3:
+		 			ShowBackgroud_4();
+					break;
+				case 4:
+		 			ShowBackgroud_5();
+					break;
+			}
+        });
+		
+		function ShowBackgroud_1()
+		{
+			$(".main-content").css("background-image", "url(images/rf-background-invoice.jpg)");
+			$('body').css('background-color', '#bbbebd');
+		}
+		
+		function ShowBackgroud_2()
+		{
+			$(".main-content").css("background-image", "url(images/rf-background-groceries.jpg)");
+		}
+		
+		function ShowBackgroud_3()
+		{
+			$(".main-content").css("background-image", "url(images/rf-background-bird.jpg)");
+			$('body').css('background-color', '#778381');
+		}
+		
+		function ShowBackgroud_4()
+		{
+			$(".main-content").css("background-image", "url(images/rf-background-shoes.jpg)");
+		}
+		
+		function ShowBackgroud_5()
+		{
+			$(".main-content").css("background-image", "url(images/rf-background-skyblue.jpg)");
+			$('body').css('background-color', '#07c4ea');
+			
+//			$('body').css('scrollbar-face-color', '#000000');
+//			$('body').css('scrollbar-3dlight-color', '#07c4ea');
+//			$('body').css('scrollbar-darkshadow-color', '#07c4ea');
+//			$('body').css('scrollbar-shadow-color', '#07c4ea');
+//			$('body').css('scrollbar-arrow-color', '#07c4ea');
+//			$('body').css('scrollbar-track-color', '#07c4ea');
+
+		}
+		
+    </script>
+</head>
+<body>
+    <div class="main-content">
+        <div class="menu">
+            <div id="accordion">
+                <h3>
+                    <a href="#">Works</a>
+                </h3>
+                <div style="max-height:100px; overflow:auto; ">
+                    <ul>
+                        <li><a href="works/identity_theft_final.pdf">Identity Theft</a></li>
+                        <li><a href="works/metropolis_parts_1_15.pdf">Metropolis 1-15 (parts)</a></li>
+                        <li><a href="works/metropolis_16_29.pdf">Metropolis 16-29</a></li>
+                        <li><a href="works/metropolis_30_complete.pdf">Metropolis XXX</a></li>
+                        <li><a href="works/notes_on_conceptualisms_excerpt.pdf">Notes on Conceptualisms, co-authored with Vanessa Place (excerpt)</a></li>
+                        <li><a href="works/notes_on_conceptualisms_cover.pdf">Notes on Conceptualisms (cover)</a></li>
+                        <li><a href="works/rob_the_p_1_800_flowers.pdf">Rob the Plagiarist: 1-800-Flowers</a></li>
+                        <li><a href="works/rob_the_p_a_hemingway_reader.pdf"> Rob the Plagiarist:<br /> A Hemingway Reader</a></li>
+                        <li><a href="works/rob_the_p_tim_davis_catalogue.pdf">Rob the Plagiarist:<br /> Tim Davis Catalogue</a></li>
+                        <li><a href="works/sprawl_cover.pdf">Sprawl (cover)</a></li>
+                        <li><a href="works/sprawl_directory.pdf">Sprawl: Directory</a></li>
+                        <li><a href="works/sprawl_preamble.pdf">Sprawl: Preamble</a></li>
+                        <li><a href="works/sprawl_parts.pdf">Sprawl (parts)</a></li>
+                        <li><a href="works/this_window_full_version.pdf">This Window Makes Me Feel</a></li>
+                        <li><a href="works/war_musical_excerpt.pdf">war, the musical (excerpt)</a></li>
+                        <li><a href="works/war_fair.pdf">war, the musical:<br /> All's Fair in Love and War</a></li>
+                        <li><a href="works/war_girl.pdf">war, the musical:<br /> Girl Friend of the Whirling Dervish</a></li>
+                        <li><a href="works/war_hillop.pdf">war, the musical:<br /> Sitting High on a Hilltop</a></li>
+                        <li><a href="works/war_money.pdf">war, the musical:<br /> We're in the Money</a></li>
+                        <li><a href="works/war_mule.pdf">war, the musical:<br /> Going to Heaven on a Mule</a></li>
+                    </ul>
+                </div>
+                <h3>
+                    <a href="#">New Works</a>
+                </h3>
+                <div>
+                    <ul>
+                        <li><a href="newworks/fitterman_my_sharona.pdf">Robert Fitterman: My Sharona</a></li>
+                        <li><a href="newworks/directions.pdf">Rob Fitterman & Steve Giasson: Directions</a></li>
+                        <li><a href="newworks/directions_draft_cover.pdf">Directions (draft cover)</a></li>
+                        <li><a href="newworks/new_works_failure.pdf">Failure: A Postconceptual Poem</a></li>
+                        <li><a href="newworks/new_works_now_we_are_friends_37.pdf">Now We Are Friends (excerpt)</a></li>
+                        <li><a href="newworks/new_works_pillbox.pdf">Pill Box</a></li>
+                    </ul>
+                </div>
+                <h3>
+                    <a href="#">Reviews</a>
+                </h3>
+                <div style="max-height:129px; overflow:auto; ">
+                    <ul>
+					    <li><a href="reviews/review_adair_on_metropolis.pdf">Gilbert Adair:<br /> Metropolis</a></li>
+                        <li><a href="reviews/review_alworth_on_metropolis.pdf">David J. Alworth:<br /> Metropolis XXX</a></li>
+                        <li><a href="reviews/review_of_notes_donovan.pdf">Thom Donovan:<br /> Notes on Conceptualisms</a></li>
+                        <li><a href="reviews/review_goldman_judith_re_thinking.pdf">Judith Goldman:<br /> Re-thinking “non-retinal literature”: citation, “radical mimesis,” and phenomenologies of reading in Conceptual writing</a></li>
+                        <li><a href="reviews/review_karla_kelsey_on_notes.pdf">Karla Kelsey:<br /> Notes on Conceptualisms</a></li>
+                        <li><a href="reviews/review_silliman_on_notes.pdf">Ron Silliman:<br /> Notes on Conceptualisms</a></li>
+                        <li><a href="reviews/review_louis_bury_this_window.pdf">Louis Bury:<br /> This Window Makes Me Feel</a></li>
+                    </ul>
+                </div>
+                <h3>
+                    <a href="#">Biography</a>
+                </h3>
+                <div>
+                    <ul>
+                        <li><a href="bio/bioFitterman10.pdf">Rob Fitterman's biography</a></li>
+                        <li><a href="bio/selected_bibliography.pdf">Selected bibliography</a></li>
+                    </ul>
+                </div>
+                <h3>
+                    <a href="#">Links</a>
+                </h3>
+                <div style="max-height:129px; overflow:auto; ">
+                    <ul>
+                        <li><a target="_new" href="http://www.ubu.com/film/fitterman_conceptualisms.html">Vanessa Place & Robert Fitterman:<br /> Notes On Conceptualisms: eastcoast/westcoast (2009)</a></li>
+                        <li><a target="_new" href="http://coldfrontmag.com/features/spotlight-robert-fitterman">Interview</a></li>
+                        <li><a target="_new" href="http://magnetberg.de/collective">Collective Task</a></li>
+						<li><a target="_new" href="https://jacket2.org/commentary/picture-intentionally-left-blank">Charles Bernstein:<br /> This picture intentionally left blank</a></li>
+						<li><a target="_new" href="http://jacket2.org/reviews/endless-polyglot-failure-party">Derek Beaulieu:<br /> An endless, polyglot failure party</a></li>
+						<li><a target="_new" href="http://robswordshop.blogspot.com">Rob's Word Shop</a></li>
+                        <li><a target="_new" href="http://www.youtube.com/user/robswordshop">Rob's Word Shop on YouTube</a></li>
+						<li>War, the musical" videos (by Klaus Killisch):</li>
+                        <ul>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=DjOSc5HpYTY">Part 1</a></li>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=Z4sfln656Rg">Part 2</a></li>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=G8xoq0eeg-M">Part 3</a></li>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=sbzjz9bTuy0">Part 4</a></li>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=ZBAFxyXm00s">Part 5</a></li>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=xYMBq8eb5r4">Part 6</a></li>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=5V0t5yFfJf0">Part 7</a></li>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=g3_jvjGCf-U">Part 8</a></li>
+                        </ul>
+                        <li>Performances:</li>
+                        <ul>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=xK-XecI1ofI&feature=related">Performance 1</a></li>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=1nnysFyIHGg">Performance 2</a></li>
+                        <li><a target="_new" href="http://www.youtube.com/watch?v=37ghtMOzkh0">Performance 3</a></li>
+                    	</ul>
+                    </ul>
+                </div>
+                <h3>
+                    <a href="#">Contacts</a>
+                </h3>
+                <div>
+                    <ul>
+                        <li>Rob Fitterman's e-mail:<br /> <a href="mailto:rmf1@nyu.edu" style="color:blue;">rmf1@nyu.edu</a></li>
+                        <li>Web site design:<br /> <a href="mailto:hensa_25@hotmail.com" style="color:blue;">Steve Giasson & Louis-Philippe Alain</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
